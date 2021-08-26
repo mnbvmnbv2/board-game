@@ -1,0 +1,28 @@
+body {
+	text-align: center;
+}
+
+#gameWindow {
+	width: 100vw;
+	height: 100vh;
+	margin: 0;
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: grid;
+	grid-template-rows: repeat(4, 1fr);
+	grid-template-columns: repeat(6, 1fr);
+}
+
+.tile {
+	border: 1px black solid;
+	margin: 0px;
+}
+
+.center {
+	grid-column-start: 2;
+	grid-column-end: 6;
+	grid-row-start: 2;
+	grid-row-end: 4;
+	background-color: bisque;
+}
