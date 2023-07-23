@@ -1,3 +1,3 @@
 # BoardGame
 
-https://mnbvmnbv2.github.io/BoardGame/
+https://mnbvmnbv2.github.io/board-game/
